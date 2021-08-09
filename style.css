@@ -91,6 +91,7 @@ header{
   font-weight: normal;
   color: var(--title);
   margin: 10px 0;
+  cursor: pointer;
 }
 
 .post-intro-text{

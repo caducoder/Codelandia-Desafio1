@@ -50,7 +50,34 @@
             <p class="post-intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis iure? Explicabo, consectetur dignissimos? Iusto ducimus repellat dignissimos optio odit nostrum totam, atque possimus, provident iure vero! Ex, accusantium. Ullam.</p>
             <i class="material-icons  fav">favorite_border</i>
          </article>
-      </secti>
+         <article class="post">
+            <small class="date-post">05 de jul, 2021</small>
+            <h2 class="post-title">Valve confirma que Steam Deck deve rodar o Windows 11</h2>
+            <p class="post-intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis iure? Explicabo, consectetur dignissimos? Iusto ducimus repellat dignissimos optio odit nostrum totam, atque possimus, provident iure vero! Ex, accusantium. Ullam.</p>
+            <i class="material-icons  fav">favorite_border</i>
+         </article>
+         <article class="post">
+            <small class="date-post">05 de jul, 2021</small>
+            <h2 class="post-title">Minority Report? Pentágono testa IA que 'prevê o futuro'</h2>
+            <p class="post-intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis iure? Explicabo, consectetur dignissimos? Iusto ducimus repellat dignissimos optio odit nostrum totam, atque possimus, provident iure vero! Ex, accusantium. Ullam.</p>
+            <i class="material-icons  fav">favorite_border</i>
+         </article>
+      </section>
    </main>
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 1500,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.post', { delay: 200 });
+        ScrollReveal().reveal('.date-post', { delay: 400 });
+        ScrollReveal().reveal('.post-title', { delay: 500 });
+        ScrollReveal().reveal('.post-intro-text', { delay: 600 });
+   </script>
 </body>
 </html>
