@@ -80,10 +80,16 @@ header{
 .search-box input{
   width: 100%;
   margin-left: 10px;
+  padding: 5px;
   border: none;
   background-color: transparent;
   color: var(--white);
   font-family: 'Inter Regular', Helvetica, sans-serif;
+}
+
+input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 
 .post-title{
