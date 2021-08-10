@@ -92,6 +92,10 @@ input:focus{
   outline: 0;
 }
 
+input::placeholder{
+  color: var(--white);
+}
+
 .post-title{
   font-family: 'Lexend', 'Arial', sans-serif;
   font-weight: normal;
@@ -131,6 +135,8 @@ main{
   top: 20px; right: 20px;
   color: var(--blue-dark);
   cursor: pointer;
+  user-select: none;
+  transition: all .2s ease;
 }
 
 .fav:hover{
